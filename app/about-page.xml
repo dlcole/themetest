@@ -1,0 +1,10 @@
+<Page navigatingTo="onNavigatingTo" class="page">
+    <Page.actionBar>
+        <ActionBar title="About">
+        <NavigationButton text="Back" android.systemIcon="ic_menu_back" tap="{{backTap}}"/>
+        </ActionBar>
+    </Page.actionBar>
+    <StackLayout>
+        <Label class="h1 text-center" text="About..."/>
+    </StackLayout>
+</Page>
